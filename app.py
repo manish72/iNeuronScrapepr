@@ -5,8 +5,9 @@ from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
 import logging
 import iNeuronReviewScrapper as ineuron
+import pdfkit
 
-logging.basicConfig(filename="logs/scrapper.log" , level=logging.INFO)
+logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 
 app = Flask(__name__)
 
@@ -28,7 +29,29 @@ def fetchCourse():
     scrapper1 = ineuron.iNeuronReviewScrapper()
     courseDetails = scrapper1.scrap_one_courseInfo(course)
     #print(courseDetails)
-    return render_template("coursedetails.html",result=courseDetails)
+    #return render_template("coursedetails.html",result=courseDetails)
+
+    # Get the HTML output
+    out = render_template("coursedetails.html",result=courseDetails)
+    #print(out)
+    # PDF options
+    options = {
+        "orientation": "landscape",
+        "page-size": "A4",
+        "margin-top": "1.0cm",
+        "margin-right": "1.0cm",
+        "margin-bottom": "1.0cm",
+        "margin-left": "1.0cm",
+        "encoding": "UTF-8",
+    }
+    
+    # Build PDF from HTML
+    config = pdfkit.configuration(wkhtmltopdf='/opt/bin/wkhtmltopdf')
+    pdf = pdfkit.from_string(out, options=options, configuration=config, verbose=True)
+    print(pdf)
+
+    # Download the PDF
+    return Response(pdf, mimetype="application/pdf")
     
 
 if __name__=="__main__":
