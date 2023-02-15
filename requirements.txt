@@ -1,7 +1,11 @@
 Flask
 flask_cors
+beautifulsoup4
+jinja2
 bs4
 requests
 pymongo
+dnspython
 pdfkit
-wkhtmltopdf 
+wkhtmltopdf
+requests
