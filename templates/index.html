@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% block head %}
+<head>
+    <title>iNeuron Scrapper</title>
+    <script src="../static/js/base.js"></script>
+</head>
+{% endblock %}
+
+
+<body>
+
+    {% block body %}
+
+        <div id = "dropList1">
+            <label for="test">Select Category:</label>
+            <select id="test" onchange="getCategories({{result}})">
+                {% for i in result.keys() %}
+                    <option value="{{i}}" >{{i}}</option>
+                {% endfor %} 
+            </select>
+        </div>
+
+        <br/>
+        
+        <div id = "dropList2" style="display:none">
+            <label for="test1">Select sub-category:</label>
+                <select id="test1" onchange="redirectURL()">
+            </select>
+            <button type="Submit">
+                <a id='submitID'>Get Courses</a>
+            </button>
+        </div>
+        <br/>        
+
+    {% endblock %}
+</body>
+</html>

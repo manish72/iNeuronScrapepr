@@ -1,0 +1,1074 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.24:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:Inside scrap one course method
+INFO:root:invoking course details method
+INFO:root:Inside course details method
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:09:36] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.24:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Fetching course ---> Talend
+INFO:root:Inside scrap one course method
+INFO:root:invoking course details method
+INFO:root:Inside course details method
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Inserted course --> Talend in MongoDB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:10:53] "GET /course?coursename=Talend HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.24:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:12:40] "GET /course?coursename=Snowflake%20Advanced HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.24:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:18:57] "GET /course?coursename=Snowflake%20Advanced HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:18:57] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:18:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:19:16] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:19:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:19:16] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.24:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:20:34] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:20:34] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:20:34] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.24:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:20:52] "GET /course?coursename=Snowflake%20Advanced HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:20:52] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:20:52] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.24:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:22:37] "GET /course?coursename=Snowflake%20Advanced HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:22:37] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:22:37] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:22:41] "GET /course?coursename=Snowflake%20Advanced HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:22:41] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:22:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.24:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:23:24] "GET /course?coursename=Snowflake%20Advanced HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:23:24] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:23:24] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.24:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:23:46] "GET /course?coursename=Snowflake%20Advanced HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:23:46] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:23:46] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:23:49] "GET /course?coursename=Snowflake%20Advanced HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:23:49] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:23:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.24:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:24:25] "GET /course?coursename=Snowflake%20Advanced HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:24:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:24:25] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.24:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:25:09] "GET /course?coursename=Snowflake%20Advanced HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:25:09] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 18:25:09] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:34:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:34:27] "GET /static/js/base.js HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:34:27] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:34:43] "GET /subcategory?id=62cd978653f5fe0ce86b9b05 HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:34:43] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:34:43] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:35:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:35:04] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:35:08] "GET /subcategory?id=62cd972153f5fe08c46b9afe HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:35:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:35:08] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:36:37] "GET /subcategory?id=62cd972153f5fe08c46b9afe HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:36:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:36:37] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:46:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:46:27] "GET /static/js/base.js HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:46:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:46:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:46:49] "GET /static/js/base.js HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:46:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:46:53] "GET /subcategory?id=62cd984253f5fea11e6b9b08 HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:46:53] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:46:53] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Tableau Foundation Course
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'startDate'
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Inserted course --> Tableau Foundation Course in MongoDB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:46:57] "GET /course?coursename=Tableau%20Foundation%20Course HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:46:57] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:46:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:52:07] "GET /subcategory?id=62cd959d53f5fe14766b9ae5 HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:52:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:52:07] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Full Stack Data Science BootCamp 2.0
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Inserted course --> Full Stack Data Science BootCamp 2.0 in MongoDB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:52:10] "GET /course?coursename=Full%20Stack%20Data%20Science%20BootCamp%202.0 HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:52:10] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:52:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Full Stack Data Science BootCamp 2.0
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:52:41] "GET /course?coursename=Full%20Stack%20Data%20Science%20BootCamp%202.0 HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:52:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:52:41] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Full Stack Data Science BootCamp 2.0
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:56:50] "GET /course?coursename=Full%20Stack%20Data%20Science%20BootCamp%202.0 HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:56:50] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:56:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:57:17] "GET /subcategory?id=62cd972153f5fe08c46b9afe HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:57:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:57:17] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:57:19] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:57:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 19:57:19] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:32] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:35] "GET /subcategory?id=62cd978653f5fe0ce86b9b05 HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:35] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:35] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:40] "GET /subcategory?id=62cd972153f5fe08c46b9afe HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:40] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:42] "GET /course?coursename=Snowflake%20Advanced HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:42] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:46] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:01:46] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:02:07] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:02:07] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:02:07] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:15:11] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:15:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:15:11] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:16:11] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:16:11] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:16:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:16:57] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:16:57] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:16:57] "GET /static/js/base.js HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:16:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:17:34] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:17:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:17:34] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:17:44] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:17:44] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:17:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:31:00] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:31:01] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:31:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:31:45] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:31:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:31:45] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:32:51] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:32:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:32:51] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:35:44] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:35:44] "GET /static/js/base.js HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:35:44] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:36:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:38:07] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:38:07] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:38:07] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:38:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:40:05] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:40:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:40:05] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:40:05] "GET /static/js/base.js HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:41:01] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:41:01] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:41:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:41:01] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:42:34] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:42:34] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:42:34] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:42:34] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:43:23] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:43:23] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:43:23] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:43:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:44:04] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:44:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:44:04] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:44:04] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:44:42] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:44:42] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:44:42] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:44:42] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:44:58] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:44:58] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:44:58] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:44:58] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:45:47] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:45:47] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:45:47] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:45:47] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:47:46] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:47:47] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:47:47] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:47:47] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:48:42] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:48:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:48:42] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:48:42] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:49:09] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:49:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:49:09] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:49:09] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:49:28] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:49:28] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:49:28] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 20:49:28] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:00:53] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:00:53] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:00:53] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:00:53] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:01:50] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:01:51] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:01:51] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:01:51] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:02:16] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:02:17] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:02:17] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:02:17] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:02:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:07:05] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:07:05] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:07:05] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:07:05] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:07:33] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:07:33] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:07:33] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:07:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:09:51] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:09:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:09:52] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:09:52] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:10:23] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:10:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:10:23] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:10:23] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:10:46] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:10:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:10:46] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:10:46] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Powercenter
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:04] "GET /course?coursename=Informatica%20Powercenter HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:04] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:04] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:09] "GET /subcategory?id=62cd972153f5fe08c46b9afe HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:12] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:15] "GET /subcategory?id=62cd972b53f5fe3f986b9aff HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:16] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.12:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Cloud (IICS)
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'startDate'
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Inserted course --> Informatica Cloud (IICS) in MongoDB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:31] "GET /course?coursename=Informatica%20Cloud%20(IICS) HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:31] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:31] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> AWS Big Data Analytics
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Inserted course --> AWS Big Data Analytics in MongoDB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:37] "GET /course?coursename=AWS%20Big%20Data%20Analytics HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:37] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:37] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> AWS Data Engineering
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Inserted course --> AWS Data Engineering in MongoDB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:47] "GET /course?coursename=AWS%20Data%20Engineering HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:47] "[33mGET /app.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [14/Feb/2023 21:11:47] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.0.43:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [15/Feb/2023 12:38:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [15/Feb/2023 12:38:53] "GET /static/js/base.js HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [15/Feb/2023 12:38:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [15/Feb/2023 12:38:58] "GET /subcategory?id=62cd972153f5fe08c46b9afe HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [15/Feb/2023 12:38:58] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [15/Feb/2023 12:38:58] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:172.18.0.2 - - [15/Feb/2023 12:39:00] "GET /course?coursename=Snowflake%20Advanced HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [15/Feb/2023 12:39:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [15/Feb/2023 12:39:00] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [15/Feb/2023 12:39:00] "[33mGET /app.js HTTP/1.1[0m" 404 -

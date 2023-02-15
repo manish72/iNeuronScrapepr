@@ -1,0 +1,2 @@
+MONGO_USER_ID = 'abc'
+MONGO_PASSWORD = 'Manish1999'

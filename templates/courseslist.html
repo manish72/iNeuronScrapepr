@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% block head %}
+<head>
+    <title>iNeuron Scrapper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="../static/js/base.js"></script>
+</head>
+{% endblock %}
+
+<body>
+
+    {% block body %}
+
+       <table id="coursesList">
+
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Course Description</th>
+                    <th>Mode</th>
+                    <th>Language</th>
+                    <th>Instructor(s) Details</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for course in result %}
+                <tr>                   
+                   <td><a href="/course?coursename={{course['courseName']}}"> {{course['courseName']}} </a> </td>
+                   <td>{{course['description']}}</td>
+                   <td>{{course['mode']}}</td>
+                   <td>{{course['language']}}</td>
+                   <td>
+                        {% for instructor in course['instructorsDetails'] %}
+                            <span style='green'{{instructor['name']}} </span> <br/> 
+                        {% endfor %}
+                    </td>
+                 {% endfor %}
+            </tbody>
+
+       </table>
+
+    {% endblock %} 
+</body>
+</html>
