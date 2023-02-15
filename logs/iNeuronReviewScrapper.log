@@ -249,3 +249,19 @@ INFO:root:Inserted course --> Fivetran in MongoDB
 INFO:root:Disconnected from mongo DB
 INFO:root:returning course details to app.py file
 INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:37:21] "GET /course?coursename=Fivetran HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:45:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:46:01] "GET /subcategory?id=62cd972b53f5fe3f986b9aff HTTP/1.1" 200 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Informatica Cloud (IICS)
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'startDate'
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:46:09] "GET /course?coursename=Informatica%20Cloud%20(IICS) HTTP/1.1" 200 -

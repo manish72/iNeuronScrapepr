@@ -42,7 +42,7 @@ def fetchCourse():
         "enable-local-file-access": ""
     }
     # wkhtmltopdf windows installation location ---> C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe
-    config = pdfkit.configuration(wkhtmltopdf = r"wkhtmltopdf.exe")
+    config = pdfkit.configuration(wkhtmltopdf = "wkhtmltopdf.exe")
     pdf = ""
     response = ""
     try:
@@ -51,8 +51,8 @@ def fetchCourse():
         #response.headers['Content-Type']='application/pdf'
     except Exception as e :
         logging.info(e)
-    return send_from_directory('PDFs/',course+'.pdf', as_attachment=True) 
-    #return render_template("coursedetails.html",result=courseDetails)
+    #return send_from_directory('PDFs/',course+'.pdf', as_attachment=True) 
+    return render_template("coursedetails.html",result=courseDetails)
     
 
 if __name__=="__main__":
