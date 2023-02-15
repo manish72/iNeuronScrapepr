@@ -7,6 +7,7 @@ from urllib.request import urlopen as uReq
 import logging
 import iNeuronReviewScrapper as ineuron
 import pdfkit
+import boto3
 
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 
@@ -51,9 +52,15 @@ def fetchCourse():
         #response.headers['Content-Type']='application/pdf'
     except Exception as e :
         logging.info(e)
-    #return send_from_directory('PDFs/',course+'.pdf', as_attachment=True) 
+    #return send_from_directory('PDFs/',course+'.pdf', as_attachment=True)
+    s3 = boto3.client("s3")
+    try:
+        s3.upload_file(Filename='PDFs/'+course+'.pdf',Bucket="ineuron-course-pdfs",Key='PDFs/'+course+'.pdf')
+    except Exception as e:
+        logging.info(e)
     return render_template("coursedetails.html",result=courseDetails)
-    
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0",port=5003)
+    s3 = boto3.resource("s3")
+    bucket = s3.Bucket('ineuron-course-pdfs')
+    app.run(host="0.0.0.0",port=5003)    

@@ -9,3 +9,4 @@ dnspython
 pdfkit
 wkhtmltopdf
 requests
+boto3

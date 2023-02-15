@@ -1,8 +1,39 @@
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 17:29:46] "GET /subcategory?id=62cd972b53f5fe3f986b9aff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 17:30:00] "GET /subcategory?id=62cd972b53f5fe3f986b9aff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 17:30:01] "GET /static/js/base.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 17:30:01] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 17:30:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 INFO:root:-------Inside scrap one course method----------
-INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:Fetching course ---> Data Engineering with Google Cloud
+INFO:root:invoking course details method
+INFO:root:-------Inside course details method----------
+INFO:root:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+INFO:root:course Info retreived
+INFO:root:Connected to mongo DB
+INFO:root:Inserted course --> Data Engineering with Google Cloud in MongoDB
+INFO:root:Disconnected from mongo DB
+INFO:root:returning course details to app.py file
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 17:30:08] "GET /course?coursename=Data%20Engineering%20with%20Google%20Cloud HTTP/1.1" 200 -
+INFO:root:-------Inside scrap one course method----------
+INFO:root:Fetching course ---> Data Engineering with Google Cloud
 INFO:root:invoking course details method
 INFO:root:-------Inside course details method----------
 INFO:root:Inside second except block in course_details method, refer error message below: 
@@ -11,13 +42,13 @@ INFO:root:course Info retreived
 INFO:root:Connected to mongo DB
 INFO:root:Disconnected from mongo DB
 INFO:root:returning course details to app.py file
-INFO:root:The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a bool.
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:13:52] "GET /course?coursename=Snowflake%20Advanced HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 17:32:27] "GET /course?coursename=Data%20Engineering%20with%20Google%20Cloud HTTP/1.1" 200 -
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
 INFO:root:-------Inside scrap one course method----------
-INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:Fetching course ---> Data Engineering with Google Cloud
 INFO:root:invoking course details method
 INFO:root:-------Inside course details method----------
 INFO:root:Inside second except block in course_details method, refer error message below: 
@@ -26,24 +57,13 @@ INFO:root:course Info retreived
 INFO:root:Connected to mongo DB
 INFO:root:Disconnected from mongo DB
 INFO:root:returning course details to app.py file
-INFO:root:The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a bool.
-ERROR:app:Exception on /course [GET]
-Traceback (most recent call last):
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
-    return self.finalize_request(rv)
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1967, in finalize_request
-    response = self.make_response(rv)
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 2096, in make_response
-    raise TypeError(
-TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:19:48] "[35m[1mGET /course?coursename=Snowflake%20Advanced HTTP/1.1[0m" 500 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 18:15:59] "GET /course?coursename=Data%20Engineering%20with%20Google%20Cloud HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 18:15:59] "GET /static/js/base.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 18:15:59] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 18:15:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 18:16:04] "GET /subcategory?id=62cd972b53f5fe3f986b9aff HTTP/1.1" 200 -
 INFO:root:-------Inside scrap one course method----------
-INFO:root:Fetching course ---> Snowflake Advanced
+INFO:root:Fetching course ---> AWS Big Data Analytics
 INFO:root:invoking course details method
 INFO:root:-------Inside course details method----------
 INFO:root:Inside second except block in course_details method, refer error message below: 
@@ -52,216 +72,4 @@ INFO:root:course Info retreived
 INFO:root:Connected to mongo DB
 INFO:root:Disconnected from mongo DB
 INFO:root:returning course details to app.py file
-INFO:root:The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a bool.
-ERROR:app:Exception on /course [GET]
-Traceback (most recent call last):
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "D:\ineuron\Projects\iNeuronScrapepr\app.py", line 54, in fetchCourse
-    pdf = f.read()
-  File "C:\Users\manis\anaconda3\lib\encodings\cp1252.py", line 23, in decode
-    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
-UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 1067: character maps to <undefined>
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:21:14] "[35m[1mGET /course?coursename=Snowflake%20Advanced HTTP/1.1[0m" 500 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
-INFO:root:-------Inside scrap one course method----------
-INFO:root:Fetching course ---> Snowflake Advanced
-INFO:root:invoking course details method
-INFO:root:-------Inside course details method----------
-INFO:root:Inside second except block in course_details method, refer error message below: 
- 'NoneType' object is not subscriptable
-INFO:root:course Info retreived
-INFO:root:Connected to mongo DB
-INFO:root:Disconnected from mongo DB
-INFO:root:returning course details to app.py file
-INFO:root:The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a bool.
-ERROR:app:Exception on /course [GET]
-Traceback (most recent call last):
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "D:\ineuron\Projects\iNeuronScrapepr\app.py", line 54, in fetchCourse
-    print(f.read())
-  File "C:\Users\manis\anaconda3\lib\encodings\cp1252.py", line 23, in decode
-    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
-UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 1067: character maps to <undefined>
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:22:20] "[35m[1mGET /course?coursename=Snowflake%20Advanced HTTP/1.1[0m" 500 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
-INFO:root:-------Inside scrap one course method----------
-INFO:root:Fetching course ---> Apache Atlas
-INFO:root:invoking course details method
-INFO:root:-------Inside course details method----------
-INFO:root:Inside second except block in course_details method, refer error message below: 
- 'NoneType' object is not subscriptable
-INFO:root:course Info retreived
-INFO:root:Connected to mongo DB
-INFO:root:Inserted course --> Apache Atlas in MongoDB
-INFO:root:Disconnected from mongo DB
-INFO:root:returning course details to app.py file
-ERROR:app:Exception on /course [GET]
-Traceback (most recent call last):
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "D:\ineuron\Projects\iNeuronScrapepr\app.py", line 54, in fetchCourse
-    print(f.read())
-  File "C:\Users\manis\anaconda3\lib\encodings\cp1252.py", line 23, in decode
-    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
-UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 1045: character maps to <undefined>
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:25:11] "[35m[1mGET /course?coursename=Apache%20Atlas HTTP/1.1[0m" 500 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
-INFO:root:-------Inside scrap one course method----------
-INFO:root:Fetching course ---> Apache Atlas
-INFO:root:invoking course details method
-INFO:root:-------Inside course details method----------
-INFO:root:Inside second except block in course_details method, refer error message below: 
- 'NoneType' object is not subscriptable
-INFO:root:course Info retreived
-INFO:root:Connected to mongo DB
-INFO:root:Disconnected from mongo DB
-INFO:root:returning course details to app.py file
-ERROR:app:Exception on /course [GET]
-Traceback (most recent call last):
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
-    return self.finalize_request(rv)
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1967, in finalize_request
-    response = self.make_response(rv)
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 2096, in make_response
-    raise TypeError(
-TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:26:13] "[35m[1mGET /course?coursename=Apache%20Atlas HTTP/1.1[0m" 500 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
-INFO:root:-------Inside scrap one course method----------
-INFO:root:Fetching course ---> Apache Atlas
-INFO:root:invoking course details method
-INFO:root:-------Inside course details method----------
-INFO:root:Inside second except block in course_details method, refer error message below: 
- 'NoneType' object is not subscriptable
-INFO:root:course Info retreived
-INFO:root:Connected to mongo DB
-INFO:root:Disconnected from mongo DB
-INFO:root:returning course details to app.py file
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:26:55] "GET /course?coursename=Apache%20Atlas HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
-INFO:root:-------Inside scrap one course method----------
-INFO:root:Fetching course ---> Apache Atlas
-INFO:root:invoking course details method
-INFO:root:-------Inside course details method----------
-INFO:root:Inside second except block in course_details method, refer error message below: 
- 'NoneType' object is not subscriptable
-INFO:root:course Info retreived
-INFO:root:Connected to mongo DB
-INFO:root:Disconnected from mongo DB
-INFO:root:returning course details to app.py file
-ERROR:app:Exception on /course [GET]
-Traceback (most recent call last):
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
-    return self.finalize_request(rv)
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1967, in finalize_request
-    response = self.make_response(rv)
-  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 2126, in make_response
-    raise TypeError(
-TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a BufferedReader.
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:27:36] "[35m[1mGET /course?coursename=Apache%20Atlas HTTP/1.1[0m" 500 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
-INFO:root:-------Inside scrap one course method----------
-INFO:root:Fetching course ---> Apache Atlas
-INFO:root:invoking course details method
-INFO:root:-------Inside course details method----------
-INFO:root:Inside second except block in course_details method, refer error message below: 
- 'NoneType' object is not subscriptable
-INFO:root:course Info retreived
-INFO:root:Connected to mongo DB
-INFO:root:Disconnected from mongo DB
-INFO:root:returning course details to app.py file
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:31:41] "GET /course?coursename=Apache%20Atlas HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
-INFO:root:-------Inside scrap one course method----------
-INFO:root:Fetching course ---> Apache Atlas
-INFO:root:invoking course details method
-INFO:root:-------Inside course details method----------
-INFO:root:Inside second except block in course_details method, refer error message below: 
- 'NoneType' object is not subscriptable
-INFO:root:course Info retreived
-INFO:root:Connected to mongo DB
-INFO:root:Disconnected from mongo DB
-INFO:root:returning course details to app.py file
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:33:02] "GET /course?coursename=Apache%20Atlas HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:37:11] "GET /subcategory?id=62cd972153f5fe08c46b9afe HTTP/1.1" 200 -
-INFO:root:-------Inside scrap one course method----------
-INFO:root:Fetching course ---> Fivetran
-INFO:root:invoking course details method
-INFO:root:-------Inside course details method----------
-INFO:root:Inside second except block in course_details method, refer error message below: 
- 'NoneType' object is not subscriptable
-INFO:root:course Info retreived
-INFO:root:Connected to mongo DB
-INFO:root:Inserted course --> Fivetran in MongoDB
-INFO:root:Disconnected from mongo DB
-INFO:root:returning course details to app.py file
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:37:21] "GET /course?coursename=Fivetran HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:45:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:46:01] "GET /subcategory?id=62cd972b53f5fe3f986b9aff HTTP/1.1" 200 -
-INFO:root:-------Inside scrap one course method----------
-INFO:root:Fetching course ---> Informatica Cloud (IICS)
-INFO:root:invoking course details method
-INFO:root:-------Inside course details method----------
-INFO:root:Inside second except block in course_details method, refer error message below: 
- 'startDate'
-INFO:root:course Info retreived
-INFO:root:Connected to mongo DB
-INFO:root:Disconnected from mongo DB
-INFO:root:returning course details to app.py file
-INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 15:46:09] "GET /course?coursename=Informatica%20Cloud%20(IICS) HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2023 18:16:13] "GET /course?coursename=AWS%20Big%20Data%20Analytics HTTP/1.1" 200 -
