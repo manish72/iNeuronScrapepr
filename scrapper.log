@@ -1,0 +1,162 @@
+2023-02-15 19:31:23,954:_internal.py:(_log):WARNING: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-15 19:31:23,954:_internal.py:(_log):INFO: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
+2023-02-15 19:31:26,487:app.py:(homepage):INFO:Getting Home page
+2023-02-15 19:31:26,487:iNeuronReviewScrapper.py:(__init__):INFO:Inside Constructor and initializing required details
+2023-02-15 19:31:28,241:iNeuronReviewScrapper.py:(getRootPage):INFO:Retreived ineuron page information
+2023-02-15 19:31:28,252:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Fetching list of all courses
+2023-02-15 19:31:28,276:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Course details fetched successfully
+2023-02-15 19:31:28,277:iNeuronReviewScrapper.py:(__init__):INFO:Constructor execution completed
+2023-02-15 19:31:28,277:app.py:(homepage):INFO:Retreived list of sub-categories using category
+2023-02-15 19:31:28,284:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:31:28] "GET / HTTP/1.1" 200 -
+2023-02-15 19:31:36,142:app.py:(fetchCourseList):INFO:Getting Courses list page using sub-category ID
+2023-02-15 19:31:36,143:iNeuronReviewScrapper.py:(__init__):INFO:Inside Constructor and initializing required details
+2023-02-15 19:31:37,676:iNeuronReviewScrapper.py:(getRootPage):INFO:Retreived ineuron page information
+2023-02-15 19:31:37,687:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Fetching list of all courses
+2023-02-15 19:31:37,706:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Course details fetched successfully
+2023-02-15 19:31:37,706:iNeuronReviewScrapper.py:(__init__):INFO:Constructor execution completed
+2023-02-15 19:31:37,706:app.py:(fetchCourseList):INFO:Sub-category ID found, getting information...
+2023-02-15 19:31:37,706:iNeuronReviewScrapper.py:(fetch_courses_by_subCategory):INFO:Fetching list of courses using sub-category
+2023-02-15 19:31:37,713:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:31:37] "GET /subcategory?id=62cd972b53f5fe3f986b9aff HTTP/1.1" 200 -
+2023-02-15 19:31:41,942:iNeuronReviewScrapper.py:(__init__):INFO:Inside Constructor and initializing required details
+2023-02-15 19:31:43,489:iNeuronReviewScrapper.py:(getRootPage):INFO:Retreived ineuron page information
+2023-02-15 19:31:43,500:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Fetching list of all courses
+2023-02-15 19:31:43,537:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Course details fetched successfully
+2023-02-15 19:31:43,538:iNeuronReviewScrapper.py:(__init__):INFO:Constructor execution completed
+2023-02-15 19:31:43,538:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:-------Inside scrap one course method----------
+2023-02-15 19:31:43,538:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:Fetching course ---> AWS Data Engineering
+2023-02-15 19:31:44,005:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:invoking course details method
+2023-02-15 19:31:44,005:iNeuronReviewScrapper.py:(course_details):INFO:-------Inside course details method----------
+2023-02-15 19:31:44,005:iNeuronReviewScrapper.py:(course_details):INFO:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+2023-02-15 19:31:44,005:iNeuronReviewScrapper.py:(course_details):INFO:course Info retreived
+2023-02-15 19:31:44,199:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:Connected to mongo DB
+2023-02-15 19:31:45,593:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:Course exists in MongoDB
+2023-02-15 19:31:45,646:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:Disconnected from mongo DB
+2023-02-15 19:31:45,646:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:returning course details to app.py file
+2023-02-15 19:31:46,218:credentials.py:(load):INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2023-02-15 19:31:46,777:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:31:46] "GET /course?coursename=AWS%20Data%20Engineering HTTP/1.1" 200 -
+2023-02-15 19:32:32,159:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:32:32] "[31m[1mGET /course HTTP/1.1[0m" 400 -
+2023-02-15 19:32:37,482:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:32:37] "[31m[1mGET /course HTTP/1.1[0m" 400 -
+2023-02-15 19:32:45,738:app.py:(log_exception):ERROR:Exception on /course [GET]
+Traceback (most recent call last):
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\ineuron\Projects\iNeuronScrapepr\app.py", line 85, in fetchCourse
+    return render_template("<h2>Course not found</h2>")
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\manis\anaconda3\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\manis\anaconda3\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\manis\anaconda3\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\manis\anaconda3\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: <h2>Course not found</h2>
+2023-02-15 19:32:45,768:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:32:45] "[35m[1mGET /course?coursename= HTTP/1.1[0m" 500 -
+2023-02-15 19:33:19,638:_internal.py:(_log):WARNING: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-15 19:33:19,639:_internal.py:(_log):INFO: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
+2023-02-15 19:33:24,161:app.py:(log_exception):ERROR:Exception on /course [GET]
+Traceback (most recent call last):
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\manis\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\ineuron\Projects\iNeuronScrapepr\app.py", line 85, in fetchCourse
+    return render_html("<h2>Course not found</h2>")
+NameError: name 'render_html' is not defined
+2023-02-15 19:33:24,171:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:33:24] "[35m[1mGET /course?coursename= HTTP/1.1[0m" 500 -
+2023-02-15 19:36:00,836:_internal.py:(_log):WARNING: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-15 19:36:00,836:_internal.py:(_log):INFO: * Running on http://192.168.0.189:5003/ (Press CTRL+C to quit)
+2023-02-15 19:36:02,801:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:36:02] "GET /course?coursename= HTTP/1.1" 200 -
+2023-02-15 19:36:09,102:app.py:(homepage):INFO:Getting Home page
+2023-02-15 19:36:09,103:iNeuronReviewScrapper.py:(__init__):INFO:Inside Constructor and initializing required details
+2023-02-15 19:36:10,912:iNeuronReviewScrapper.py:(getRootPage):INFO:Retreived ineuron page information
+2023-02-15 19:36:10,950:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Fetching list of all courses
+2023-02-15 19:36:11,113:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Course details fetched successfully
+2023-02-15 19:36:11,113:iNeuronReviewScrapper.py:(__init__):INFO:Constructor execution completed
+2023-02-15 19:36:11,113:app.py:(homepage):INFO:Retreived list of sub-categories using category
+2023-02-15 19:36:11,127:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:36:11] "GET / HTTP/1.1" 200 -
+2023-02-15 19:36:15,791:app.py:(fetchCourseList):INFO:Getting Courses list page using sub-category ID
+2023-02-15 19:36:15,791:iNeuronReviewScrapper.py:(__init__):INFO:Inside Constructor and initializing required details
+2023-02-15 19:36:17,473:iNeuronReviewScrapper.py:(getRootPage):INFO:Retreived ineuron page information
+2023-02-15 19:36:17,497:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Fetching list of all courses
+2023-02-15 19:36:17,547:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Course details fetched successfully
+2023-02-15 19:36:17,548:iNeuronReviewScrapper.py:(__init__):INFO:Constructor execution completed
+2023-02-15 19:36:17,548:app.py:(fetchCourseList):INFO:Sub-category ID found, getting information...
+2023-02-15 19:36:17,548:iNeuronReviewScrapper.py:(fetch_courses_by_subCategory):INFO:Fetching list of courses using sub-category
+2023-02-15 19:36:17,548:iNeuronReviewScrapper.py:(fetch_courses_by_subCategory):INFO:No courses found for the sub-category
+2023-02-15 19:36:17,561:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:36:17] "GET /subcategory?id=62cd9c6f53f5fe57ee6b9b49 HTTP/1.1" 200 -
+2023-02-15 19:36:27,318:app.py:(fetchCourseList):INFO:Getting Courses list page using sub-category ID
+2023-02-15 19:36:27,318:iNeuronReviewScrapper.py:(__init__):INFO:Inside Constructor and initializing required details
+2023-02-15 19:36:29,369:iNeuronReviewScrapper.py:(getRootPage):INFO:Retreived ineuron page information
+2023-02-15 19:36:29,390:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Fetching list of all courses
+2023-02-15 19:36:29,467:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Course details fetched successfully
+2023-02-15 19:36:29,467:iNeuronReviewScrapper.py:(__init__):INFO:Constructor execution completed
+2023-02-15 19:36:29,468:app.py:(fetchCourseList):INFO:Sub-category ID found, getting information...
+2023-02-15 19:36:29,468:iNeuronReviewScrapper.py:(fetch_courses_by_subCategory):INFO:Fetching list of courses using sub-category
+2023-02-15 19:36:29,468:iNeuronReviewScrapper.py:(fetch_courses_by_subCategory):INFO:No courses found for the sub-category
+2023-02-15 19:36:29,474:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:36:29] "GET /subcategory?id=62cd9acc53f5fe45046b9b34 HTTP/1.1" 200 -
+2023-02-15 19:36:35,234:app.py:(fetchCourseList):INFO:Getting Courses list page using sub-category ID
+2023-02-15 19:36:35,235:iNeuronReviewScrapper.py:(__init__):INFO:Inside Constructor and initializing required details
+2023-02-15 19:36:36,791:iNeuronReviewScrapper.py:(getRootPage):INFO:Retreived ineuron page information
+2023-02-15 19:36:36,812:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Fetching list of all courses
+2023-02-15 19:36:36,860:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Course details fetched successfully
+2023-02-15 19:36:36,860:iNeuronReviewScrapper.py:(__init__):INFO:Constructor execution completed
+2023-02-15 19:36:36,860:app.py:(fetchCourseList):INFO:Sub-category ID found, getting information...
+2023-02-15 19:36:36,860:iNeuronReviewScrapper.py:(fetch_courses_by_subCategory):INFO:Fetching list of courses using sub-category
+2023-02-15 19:36:36,861:iNeuronReviewScrapper.py:(fetch_courses_by_subCategory):INFO:No courses found for the sub-category
+2023-02-15 19:36:36,865:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:36:36] "GET /subcategory?id=62cd9e1753f5fe14226b9b63 HTTP/1.1" 200 -
+2023-02-15 19:36:43,672:app.py:(fetchCourseList):INFO:Getting Courses list page using sub-category ID
+2023-02-15 19:36:43,672:iNeuronReviewScrapper.py:(__init__):INFO:Inside Constructor and initializing required details
+2023-02-15 19:36:45,393:iNeuronReviewScrapper.py:(getRootPage):INFO:Retreived ineuron page information
+2023-02-15 19:36:45,412:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Fetching list of all courses
+2023-02-15 19:36:45,458:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Course details fetched successfully
+2023-02-15 19:36:45,458:iNeuronReviewScrapper.py:(__init__):INFO:Constructor execution completed
+2023-02-15 19:36:45,458:app.py:(fetchCourseList):INFO:Sub-category ID found, getting information...
+2023-02-15 19:36:45,458:iNeuronReviewScrapper.py:(fetch_courses_by_subCategory):INFO:Fetching list of courses using sub-category
+2023-02-15 19:36:45,463:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:36:45] "GET /subcategory?id=62cd95b453f5fe0a5c6b9ae7 HTTP/1.1" 200 -
+2023-02-15 19:36:46,899:iNeuronReviewScrapper.py:(__init__):INFO:Inside Constructor and initializing required details
+2023-02-15 19:36:48,477:iNeuronReviewScrapper.py:(getRootPage):INFO:Retreived ineuron page information
+2023-02-15 19:36:48,496:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Fetching list of all courses
+2023-02-15 19:36:48,573:iNeuronReviewScrapper.py:(create_courses_lists):INFO:Course details fetched successfully
+2023-02-15 19:36:48,573:iNeuronReviewScrapper.py:(__init__):INFO:Constructor execution completed
+2023-02-15 19:36:48,573:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:-------Inside scrap one course method----------
+2023-02-15 19:36:48,573:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:Fetching course ---> Python advance with projects
+2023-02-15 19:36:49,466:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:invoking course details method
+2023-02-15 19:36:49,466:iNeuronReviewScrapper.py:(course_details):INFO:-------Inside course details method----------
+2023-02-15 19:36:49,466:iNeuronReviewScrapper.py:(course_details):INFO:Inside second except block in course_details method, refer error message below: 
+ 'NoneType' object is not subscriptable
+2023-02-15 19:36:49,467:iNeuronReviewScrapper.py:(course_details):INFO:course Info retreived
+2023-02-15 19:36:51,298:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:Connected to mongo DB
+2023-02-15 19:36:56,509:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:Inserted course --> Python advance with projects in MongoDB
+2023-02-15 19:36:56,555:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:Disconnected from mongo DB
+2023-02-15 19:36:56,555:iNeuronReviewScrapper.py:(scrap_one_courseInfo):INFO:returning course details to app.py file
+2023-02-15 19:36:57,145:credentials.py:(load):INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2023-02-15 19:36:58,060:_internal.py:(_log):INFO:127.0.0.1 - - [15/Feb/2023 19:36:58] "GET /course?coursename=Python%20advance%20with%20projects HTTP/1.1" 200 -

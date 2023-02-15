@@ -8,7 +8,7 @@ import configuration as mongoConfig
 import pymongo
 import logging
 
-logging.basicConfig(filename="logs/"+__name__+".log" , level=logging.INFO)
+#logging.basicConfig(filename="logs/"+__name__+".log" , level=logging.INFO)
 
 class iNeuronReviewScrapper:
     
@@ -16,6 +16,7 @@ class iNeuronReviewScrapper:
         '''
             initialize the variables course_categories_list, courses_list_by_category and rootURL with ineuron website https://ineuron.ai
         '''
+        logging.info("Inside Constructor and initializing required details")
         self.course_categories_list = list()
         self.courses_list_by_category = dict()
         self.store_courses_by_category = list()
@@ -26,10 +27,16 @@ class iNeuronReviewScrapper:
         self.create_courses_lists()
         self.fetch_all_instructors()
         self.userid = mongoConfig.MONGO_USER_ID
-        self.password = mongoConfig.MONGO_PASSWORD        
+        self.password = mongoConfig.MONGO_PASSWORD
+        self.DOMAIN = mongoConfig.MONGO_DOMAIN
+        self.TAIL_URL = mongoConfig.MONGO_TAIL_URL
+        logging.info("Constructor execution completed")  
         
     def connect(self):
-        url = 'mongodb+srv://' + self.userid+':' + self.password + '@cluster0.wjd9g.mongodb.net/?retryWrites=true&w=majority'
+        '''
+            Method used to connect to MongoDB
+        '''
+        url = self.DOMAIN + self.userid+':' + self.password + self.TAIL_URL
         client  = pymongo.MongoClient(url)
         return client
     
@@ -37,14 +44,19 @@ class iNeuronReviewScrapper:
         '''
           Fetch the ineuron website page from https://ineuron.ai and return the HTML page
         '''
-        uclient = uReq(self.rootURL)
-        ineuron_page = uclient.read()
+        try:
+            uclient = uReq(self.rootURL)
+            ineuron_page = uclient.read()
+            logging.info("Retreived ineuron page information")
+        except Exception as e:
+            logging.info("Unable to retreive ineuron page information")
         return bs(ineuron_page,"html.parser")
     
     def create_courses_lists(self):
         '''
             Fetch and store the list of courses based on category and its sub-categories. Also fetches all the courses.
         '''
+        logging.info("Fetching list of all courses")
         self.store_entire_json = self.ineuron_html.find_all('script',{'type':'application/json'})[0].text # extract JSON
         self.store_entire_json = json.loads(self.store_entire_json) #convert entire string JSON to JSON
         store_courses_json = self.store_entire_json['props']['pageProps']['initialState']['init']['categories'] # store categories and its details
@@ -58,6 +70,7 @@ class iNeuronReviewScrapper:
             for j in store_courses_json[i]['subCategories']:
                 courses_list.append(store_courses_json[i]['subCategories'][j]) # fetch and store each sub category related to category
             self.courses_list_by_category[store_courses_json[i]['title']] = courses_list # store list of categories and its sub-categories inside a list
+        logging.info("Course details fetched successfully")
     
     #def fetch_sub_categories(self,categoryName):
         '''
@@ -70,6 +83,7 @@ class iNeuronReviewScrapper:
         '''
             Lists all courses based on sub-category id        
         '''        
+        logging.info("Fetching list of courses using sub-category")
         for j in self.total_courses_json.keys():
             if subCategoryId == self.total_courses_json[j]['categoryId']:
                 fetch_course_info = dict()            
@@ -84,6 +98,8 @@ class iNeuronReviewScrapper:
                     instructor['name'] = k['name']
                     fetch_course_info['instructorsDetails'].append(instructor)
                 self.store_courses_by_category.append(fetch_course_info)
+        if not self.store_courses_by_category:
+            logging.info("No courses found for the sub-category")
         return self.store_courses_by_category
             
     def fetch_all_instructors(self):
@@ -101,7 +117,8 @@ class iNeuronReviewScrapper:
             except KeyError as e:
                 instructor['email'] = fetch_instructors[i]['email']
             self.store_instructors.append(instructor)
-    
+        if not self.store_instructors:
+            logging.info("No instructors found")
     
     def scrap_one_courseInfo(self,courseName):
         '''
@@ -117,13 +134,18 @@ class iNeuronReviewScrapper:
         logging.info("invoking course details method")
         try:
             fetch_course = self.course_details(store_course_json)
-            connection = self.connect()
-            logging.info("Connected to mongo DB")
+            try:
+                connection = self.connect()
+                logging.info("Connected to mongo DB")
+            except Exception as e:
+                logging.info("Error occured while connecting to MongoDB")
             db = connection['test_scrapper']
             course = db['courses']
             if not course.find_one({'title' : fetch_course['title']}):
                 course.insert_one(fetch_course)
                 logging.info(f"Inserted course --> {fetch_course['title']} in MongoDB")
+            else:
+                logging.info("Course exists in MongoDB")
             connection.close()
             logging.info("Disconnected from mongo DB")
         except Exception as e:
