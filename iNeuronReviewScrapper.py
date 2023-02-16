@@ -1,13 +1,11 @@
-from flask import Flask, render_template, request,jsonify
-from flask_cors import CORS,cross_origin
 import requests
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
 import json
-import configuration as mongoConfig
+import configuration as config
 import pymongo
 import logging
-
+import mysql.connector
 #logging.basicConfig(filename="logs/"+__name__+".log" , level=logging.INFO)
 
 class iNeuronReviewScrapper:
@@ -26,20 +24,32 @@ class iNeuronReviewScrapper:
         self.ineuron_html = self.getRootPage()
         self.create_courses_lists()
         self.fetch_all_instructors()
-        self.userid = mongoConfig.MONGO_USER_ID
-        self.password = mongoConfig.MONGO_PASSWORD
-        self.DOMAIN = mongoConfig.MONGO_DOMAIN
-        self.TAIL_URL = mongoConfig.MONGO_TAIL_URL
+        self.con = config
         logging.info("Constructor execution completed")  
         
-    def connect(self):
+    def mongoconnect(self):
         '''
-            Method used to connect to MongoDB
+            Method used to get client object from MongoDB
         '''
-        url = self.DOMAIN + self.userid+':' + self.password + self.TAIL_URL
-        client  = pymongo.MongoClient(url)
-        return client
+        logging.info("Requesting connection to MONGODB")
+        url = self.con.MONGO_DOMAIN + self.con.MONGO_USER_ID+':' + self.con.MONGO_PASSWORD + self.con.MONGO_TAIL_URL
+        self.client  = pymongo.MongoClient(url)
+        return self.client
     
+    def sqlconnect(self):
+        '''
+            Method used to get client object from Mysql 
+        '''    
+        logging.info("Requesting connection to MYSQL")
+        self.mysql = mysql.connector.connect(
+            host = self.con.MYSQL_DOMAIN,
+            user = self.con.MYSQL_USERNAME,
+            password = self.con.MYSQL_PASSWORD,
+            port = self.con.MYSQL_PORT
+        )
+        logging.info(self.mysql)
+        return self.mysql
+
     def getRootPage(self):
         '''
           Fetch the ineuron website page from https://ineuron.ai and return the HTML page
@@ -79,7 +89,7 @@ class iNeuronReviewScrapper:
         #self.course_input_list = self.courses_list_by_category[self.course_categories_list[self.course_categories_list.index(categoryName)]]
         
     
-    def fetch_courses_by_subCategory(self,subCategoryId):
+    def fetch_courses_by_subCategory(self,subCategoryId: str):
         '''
             Lists all courses based on sub-category id        
         '''        
@@ -120,7 +130,7 @@ class iNeuronReviewScrapper:
         if not self.store_instructors:
             logging.info("No instructors found")
     
-    def scrap_one_courseInfo(self,courseName):
+    def scrap_one_courseInfo(self,courseName: str):
         '''
             Scrap all the details of course based on courseName
         '''
@@ -134,27 +144,51 @@ class iNeuronReviewScrapper:
         logging.info("invoking course details method")
         try:
             fetch_course = self.course_details(store_course_json)
+
             try:
-                connection = self.connect()
+                connection = self.mongoconnect()
                 logging.info("Connected to mongo DB")
+                db = connection['ineuron_scrapper']
+                course = db['courses']
+                if not course.find_one({'title' : fetch_course['title']}):
+                    course.insert_one(fetch_course)
+                    logging.info(f"Inserted course --> {fetch_course['title']} in MongoDB")
+                else:
+                    logging.info("Course exists in MongoDB")
+                connection.close()
+                logging.info("Disconnected from mongo DB")
             except Exception as e:
-                logging.info("Error occured while connecting to MongoDB")
-            db = connection['test_scrapper']
-            course = db['courses']
-            if not course.find_one({'title' : fetch_course['title']}):
-                course.insert_one(fetch_course)
-                logging.info(f"Inserted course --> {fetch_course['title']} in MongoDB")
-            else:
-                logging.info("Course exists in MongoDB")
-            connection.close()
-            logging.info("Disconnected from mongo DB")
+                logging.info(f"Error occured while connecting to MongoDB, refer exception below...\n{e}") 
+
+            try:
+                connection = self.sqlconnect()
+                logging.info("Connected to MYSQL SERVER")
+                cursor = connection.cursor()                
+                query = "SELECT * FROM ineuronDB.ineuronscrapper WHERE COURSE_NAME = '" + str(fetch_course['title']) + "'"
+                cursor.execute(query)
+                if not list(cursor):
+                    logging.info("Course does not exist, inserting to database")
+                    instructors = ""
+                    for i in fetch_course['instructors']:
+                        instructors += i['name'] + ','
+                    query = "INSERT INTO ineuronDB.ineuronscrapper VALUES('" + str(fetch_course['title']) + "','" + str(fetch_course['description'].replace("'","_")) + "','" + str(fetch_course['categoryId']) + "','"+ str(fetch_course['pricing']['IN']) + "','" + instructors[:-1] +"')"
+                    cursor.execute(query)
+                    connection.commit()
+                    logging.info(f"Inserted course --> {fetch_course['title']} in MYSQL SERVER")
+                else:
+                    logging.info("Course already exists inside database")
+                connection.close()
+                logging.info("Disconnected from MYSQL SERVER")
+            except Exception as e:
+                logging.info(f"Error occured while connecting to MYSQL SERVER, refer exception below...\n{e}") 
+                    
         except Exception as e:
             logging.info(f"Inside except block in scrap_one_courseInfo method, refer error message below: \n {e}")
             fetch_course = ""
         logging.info("returning course details to app.py file")
         return fetch_course
         
-    def course_details(self,store_course_json):
+    def course_details(self,store_course_json: dict):
         '''
             Fetches course details from course json
         '''
