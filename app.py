@@ -6,6 +6,7 @@ import logging
 import iNeuronReviewScrapper as ineuron
 import pdfkit
 import boto3
+import configuration as config1
 
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO, format='%(asctime)s:%(filename)s:(%(funcName)s):[%(lineno)d]:%(levelname)s:%(message)s')
 
@@ -79,8 +80,13 @@ def fetchCourse():
                     logging.info(e)
                 
                 try:
-                    s3 = boto3.client("s3")
+                    s3 = boto3.client(
+                        "s3",
+                        aws_access_key_id = config1.AWS_ACCESS_KEY,
+                        aws_secret_access_key = config1.AWS_SECRET_KEY
+                        )
                     s3.upload_file(Filename='PDFs/'+course+'.pdf',Bucket="ineuron-course-pdfs",Key='PDFs/'+course+'.pdf')
+                    logging.info("PDF uploaded successfully in S3 bucket")
                 except Exception as e:
                     logging.info("Error occured at amazon s3, refer error message below ...")
                     logging.info(e)
